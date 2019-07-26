@@ -1,0 +1,17 @@
+.header {
+    background: #222222;
+    height: 100px;
+}
+
+
+.m, .y, .symbol, .s, .h, .o, .p  {
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: rgb(252,90,29);
+    background: linear-gradient(135deg, rgb(252, 0, 10) 18%, rgb(242, 139, 39) 51%, rgb(228, 226, 0) 100%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+}

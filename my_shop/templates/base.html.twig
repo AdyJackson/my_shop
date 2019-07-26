@@ -2,10 +2,17 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:900&display=swap" rel="stylesheet">
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        <div class="header">
+            {% block header %}
+                <span class="headerContent"><span class="headerContent m">m</span><span class="headerContent y">y</span><span class="headerContent symbol">_</span><span class="headerContent s">S</span><span class="headerContent h">h</span><span class="headerContent o">o</span><span class="headerContent p">p</span></span>
+            {% endblock %}
+        </div>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
