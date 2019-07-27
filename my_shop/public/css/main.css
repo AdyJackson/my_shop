@@ -1,17 +1,70 @@
-.header {
-    background: #222222;
-    height: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 
-.m, .y, .symbol, .s, .h, .o, .p  {
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background: #222222;
+    height: 80px;
+
+}
+
+
+.headerContent {
     font-size: 40px;
     font-family: 'Noto Sans JP', sans-serif;
     background: rgb(252,90,29);
-    background: linear-gradient(135deg, rgb(252, 0, 10) 18%, rgb(242, 139, 39) 51%, rgb(228, 226, 0) 100%);
+    background: linear-gradient(120deg, rgb(252, 28, 98) 20%, rgb(242, 148, 33) 60%, rgb(212, 228, 129) 100%);
      -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.headerPos {
+    padding: 7px 10px;
+}
+
+.fa-shopping-cart {
+    font-size: 30px;
+    color: #ffffff;
+    transition: all .5s;
+}
+
+
+.fa-shopping-cart:hover {
+    color: #f9454c;  /* fc384b
+    /*background: rgb(252,90,29);
+    background: linear-gradient(120deg, rgb(252, 28, 98) 20%, rgb(242, 148, 33) 60%, rgb(212, 228, 129) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+     */
+}
 
 
 
+
+
+
+.navigationContent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 28px 40px 0 ;
 }

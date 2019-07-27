@@ -3,16 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:900&display=swap" rel="stylesheet">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <script src="https://kit.fontawesome.com/eea1460f9c.js"></script>        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:900&display=swap" rel="stylesheet">
+        <title>{% block title %}my_Shop{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
         <div class="header">
             {% block header %}
-                <span class="headerContent"><span class="headerContent m">m</span><span class="headerContent y">y</span><span class="headerContent symbol">_</span><span class="headerContent s">S</span><span class="headerContent h">h</span><span class="headerContent o">o</span><span class="headerContent p">p</span></span>
+                <div class="headerPos">
+                    <span class="headerContent"><a href="/shop">my_Shop</a></span>
+                </div>
             {% endblock %}
         </div>
+
+        <div class="navigation">
+            {% block navigation %}
+                <div class="navigationContent">
+                    <a href="/basket"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+            {% endblock %}
+        </div>
+
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
