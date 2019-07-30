@@ -29,7 +29,7 @@
 .headerContent {
     font-size: 40px;
     font-family: 'Noto Sans JP', sans-serif;
-    background: rgb(252,90,29);
+    color: rgb(252,90,29);
     background: linear-gradient(120deg, rgb(252, 28, 98) 20%, rgb(242, 148, 33) 60%, rgb(212, 228, 129) 100%);
      -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,7 +41,7 @@
 }
 
 .fa-shopping-cart {
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
     transition: all .5s;
 }
@@ -49,7 +49,7 @@
 
 .fa-shopping-cart:hover {
     color: #f9454c;  /* fc384b
-    /*background: rgb(252,90,29);
+    background: rgb(252,90,29);
     background: linear-gradient(120deg, rgb(252, 28, 98) 20%, rgb(242, 148, 33) 60%, rgb(212, 228, 129) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -66,5 +66,41 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 28px 40px 0 ;
+    padding: 33px 40px 0 ;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top left, #FFFADF 10% , #ffd5c4);
+    /*background: rgb(255,250,223);
+    background: linear-gradient(100deg, rgba(255,250,223,1) 27%, rgba(255,203,183,1) 100%);
+    background: rgb(255,221,221);
+     background: -webkit-linear-gradient(200deg, rgb(255, 181, 152) 0%, rgba(255,247,245,1) 33%, rgba(255,250,223,1) 97%);
+
+     */
+}
+
+/*
+#FFFADF - yellow
+#FFB598 - koral
+#FFF7F5 - middle
+
+
+ */
+
+.navRS {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px 600px;
+}
+
+a {
+    color: white;
 }

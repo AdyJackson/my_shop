@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/css/main.css">
-        <script src="https://kit.fontawesome.com/eea1460f9c.js"></script>        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/eea1460f9c.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
         <title>{% block title %}my_Shop{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
@@ -22,10 +25,26 @@
                     <a href="/basket"><i class="fas fa-shopping-cart"></i></a>
                 </div>
 
+
+            {% endblock %}
+
+            <div class="navBar">
+                {% block navbar%}
+                    <div class="navRS">
+                        <a href="shop">Регистрация</a>
+                        <a href="shop">Вход</a>
+                    </div>
+                {% endblock %}
+            </div>
+        </div>
+
+        <div class="body">
+            {% block body %}
+
             {% endblock %}
         </div>
 
-        {% block body %}{% endblock %}
+
         {% block javascripts %}{% endblock %}
     </body>
 </html>
