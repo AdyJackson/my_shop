@@ -97,8 +97,8 @@ body {
     font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 0;
-    right: 0;
-    padding: 40px 600px;
+    left: 90%;
+
 }
 
 a {
